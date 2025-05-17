@@ -1,25 +1,133 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Roboto', sans-serif ;
+    margin: 0;
+    }
+
+    h1 { font-size: 3.5 em;}
+    h2 {font-size: 2.7 em;}
+    h3 {font-size: 2em;}
+    p{ font-size:1.25em;}
+    ul{ list-style: none;}   
+
+button {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 5);
+    color: white;
+    background-color: blueviolet;
+}
+
+button:hover{
+    background-color: rgb(101,33,165);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header {
+    background-color: rgb(245,245,245);
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.5em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a.hover{
+    color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
  body {
         background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfKWYrQ4ceNS9M82eBF5_h6b62371yh1J_hOEQXiFJYXk_Wsa-RwXFXNBrvq1gLbdPNPeGUzNVvK_TV9ItklYBTNZTPLWlLcclCpiXi3FDeV5NOj-r7skpsouEF4qbF52ZOZFtm86IfsM/s1600/at-the-beach-hd-wallpaper.jpeg');
-        background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
-        background-repeat: no-repeat; /* Evita que la imagen se repita */
-        background-position: center; /* Centra la imagen */
+        background-size: cover;  
+        background-repeat: no-repeat; 
+        background-position: center; 
         background-attachment: fixed;
-      }
+      /
 
+.header{
+
+
+}
+*/
 /* Estilo del navbar */
+/*
 .navbar {
-    position: fixed; /* Fijo en la pantalla */
-    top: 0; /* Se posiciona en la parte superior */
+    position: fixed; 
+    top: 0; 
     left: 0;
-    width: 100%; /* Ocupa todo el ancho */
-    background-color: #333; /* Color de fondo */
-    color: white; /* Color del texto */
+    width: 100%;
+    background-color: #333; 
+    color: white; 
     padding: 10px 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
-    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    z-index: 1000; 
   }
 
-  /* Estilo de los enlaces */
+  /*
   .navbar a {
     color: white;
     text-decoration: none;
@@ -30,14 +138,12 @@
   .navbar a:hover {
     text-decoration: underline;
   }
-
-  /* Espaciado para el contenido */
+*/
+  
+  /*
   .content {
-    margin-top: 60px; /* Espacio para evitar que el contenido quede debajo del navbar */
+    margin-top: 60px; 
   }
-
-
-
   .mi-div {
     width: 300px;
     height: 200px;
@@ -47,3 +153,4 @@
     background-position: center;
     border: 1px solid #000;
   }
+  */
