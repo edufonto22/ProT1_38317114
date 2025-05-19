@@ -3,6 +3,9 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 body {
     font-family:'Roboto', sans-serif ;
     margin: 0;
@@ -33,6 +36,11 @@ button:hover{
     max-width: 1400px;
     margin: auto;
 }
+
+.color-acento{
+    color: blueviolet;
+}
+
 
 header {
     background-color: rgb(245,245,245);
@@ -68,17 +76,199 @@ header a{
 
 header a.hover{
     color: blueviolet;
+} 
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+     ,url("media/hero.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
 }
 
+#hero h1{
+    color: white;
+}
 
+#somos-proya{
 
+}
 
+#somos-proya .container{
+    text-align: center;
+    padding: 200px 12px;
+}
 
+#nuestros-programas{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
 
+#nuestros-programas .container{
+   padding: 150px 0px;
+}
 
+#nuestros-programas h2{
+    margin-top: 0;
+    font-size: 3.2em;
 
+}
 
+#nuestros-programas .p{
+    display: none;
+}
 
+#nuestros-programas .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 100px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+#aplica-ya{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+    padding: 100px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+     ,url("media/front.webp");
+
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+     ,url("media/back.webp");
+
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+     ,url("media/full.jpg");
+  
+    
+}
+
+#caracteristicas .container{
+        text-align: center;
+        padding: 200px 12px;
+}
+
+#caracteristicas li{
+    margin: 15px 0px;
+    font-weight: bold;
+
+}
+
+#final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    height: 80vh;
+}
+
+#final h2{
+    font-size: 9vw;
+}
+
+#final button{
+    font-size: 5vw;
+}
+
+footer{
+    background-color: rgb(230, 230,230);
+}
+
+footer .p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100, 100, 100);
+}
+
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+@media (min-width: 720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;   
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #somos-proya .container{
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    #somos-proya .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align:initial;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #somos-proya .img-container{
+        background-image:url("media/desarrollador.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+    }
+
+}
 
 
 
